@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Secrets / environment
+.env
+
+# Database & generated artifacts
+data/*.sqlite
+data/*.xlsx
+data/backups/
+
+# Runtime PDF working dirs (keep folders, ignore contents)
+data/input_pdfs/*
+data/processed_pdfs/*
+data/failed_pdfs/*
+!data/input_pdfs/.gitkeep
+!data/processed_pdfs/.gitkeep
+!data/failed_pdfs/.gitkeep
+
+# Exports
+exports/*
+!exports/.gitkeep
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sample source PDFs (real business data — kept out of the repo)
+pdfs/

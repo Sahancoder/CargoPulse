@@ -1,0 +1,9 @@
+streamlit
+pandas
+openpyxl
+pymupdf
+pdfplumber
+python-dotenv
+plotly
+anthropic
+openai
